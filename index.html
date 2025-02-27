@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heredity and Evolution Educational Notes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom Styles -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        /* Top Contact Bar */
+        .top-bar {
+            background-color: #000;
+            color: #fff;
+            padding: 5px 0;
+            font-size: 14px;
+        }
+        .top-bar a {
+            color: #fff;
+            text-decoration: none;
+        }
+        /* Vertical Menu Styling */
+        .navbar {
+            background: linear-gradient(to bottom, green, black); /* Green to black gradient */
+            padding: 0; /* Remove default padding for full gradient coverage */
+        }
+        .navbar-brand {
+            color: #fff; /* White brand text for visibility on gradient */
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            padding: 10px 15px;
+        }
+        .navbar-nav {
+            flex-direction: column; /* Stack menu items vertically */
+            width: 100%; /* Full width for vertical layout */
+        }
+        .navbar-nav .nav-link {
+            color: #fff; /* White text as requested */
+            text-transform: uppercase;
+            font-family: Arial, sans-serif;
+            padding: 10px 15px; /* Consistent padding for each item */
+            transition: background-color 0.3s; /* Smooth hover transition */
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: #ffd700; /* Yellowish background on hover */
+            color: #000; /* Black text on hover for contrast */
+        }
+        .search-btn {
+            background: none;
+            border: none;
+            color: #fff; /* White icon to match menu text */
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px 15px; /* Align with menu item padding */
+        }
+        /* Content Sections */
+        .content-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: red; /* Red headings and subheadings */
+            font-weight: bold; /* Bold as requested */
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+        }
+        /* Back to Top and Footer */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span><i class="fas fa-envelope"></i> info@heredityevolution.com</span>
+                </div>
+                <div class="col-md-6 text-right">
+                    <span><i class="fas fa-map-marker-alt"></i> Education Hub</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header and Navigation -->
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Heredity and Evolution</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#heredity">HEREDITY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mendels-laws">MENDEL’S LAWS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sex-determination">SEX DETERMINATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#evolution-classification">EVOLUTION & CLASSIFICATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#traits">ACQUIRED AND INHERITED TRAITS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#organs">HOMOLOGOUS AND ANALOGOUS ORGANS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fossils">FOSSILS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#human-evolution">HUMAN EVOLUTION</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="search-btn" id="searchTrigger"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-4">
+        <!-- Home Section -->
+        <section id="home" class="content-section">
+            <h1>Heredity and Evolution</h1>
+            <p>Welcome to this educational website on Heredity and Evolution! Here, you’ll find detailed notes written in simple English to help you understand these important biology topics. Explore how traits pass from parents to children, how species change over time, and much more.</p>
+            <p>Below is a quick summary table of the main concepts. Use the navigation menu or search bar above to dive into each topic!</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Definition</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Heredity</td><td>Passing traits via genes from parents to offspring</td><td>Brown eyes from parents</td></tr>
+                    <tr><td>Mendel’s Laws</td><td>Rules for trait inheritance, segregation, and assortment</td><td>Purple pea flowers dominating white</td></tr>
+                    <tr><td>Sex Determination</td><td>Chromosomes determine sex, XX for female, XY for male</td><td>Father’s Y chromosome results in a boy</td></tr>
+                    <tr><td>Evolution</td><td>Species change over time through natural selection</td><td>Birds developing feathers for flight</td></tr>
+                    <tr><td>Classification</td><td>Grouping organisms by evolutionary relationships</td><td>Humans, chimps in primates</td></tr>
+                    <tr><td>Acquired Traits</td><td>Developed during life, not inherited</td><td>Learning to play piano</td></tr>
+                    <tr><td>Inherited Traits</td><td>Present at birth, passed via genes</td><td>Eye color</td></tr>
+                    <tr><td>Homologous Organs</td><td>Similar structure, different function, common ancestor</td><td>Human arm, bat wing</td></tr>
+                    <tr><td>Analogous Organs</td><td>Similar function, different structure, convergent evolution</td><td>Bird wing, insect wing</td></tr>
+                    <tr><td>Fossils</td><td>Preserved remains of ancient life, evidence for evolution</td><td>Dinosaur bones</td></tr>
+                    <tr><td>Human Evolution</td><td>Development from early hominins to Homo sapiens</td><td>Australopithecus to modern humans</td></tr>
+                </tbody>
+            </table>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://en.wikipedia.org/wiki/Heredity" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Heredity Section -->
+        <section id="heredity" class="content-section">
+            <h2>Heredity</h2>
+            <p>Heredity is how parents pass traits to their children through genes. Genes are tiny parts of DNA, which is like an instruction book for building things like eye color, height, or even the shape of your nose. For example, if your mom and dad both have brown eyes, you might get brown eyes too because of the genes they give you. But things like the sun or what you eat can also change how some traits show up.</p>
+            <p>Learn more from <a href="https://www.merriam-webster.com/dictionary/heredity" target="_blank">Heredity Definition</a>. It says heredity also helps species change over many years through something called natural selection.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://www.merriam-webster.com/dictionary/heredity" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Mendel’s Laws Section -->
+        <section id="mendels-laws" class="content-section">
+            <h2>Mendel’s Laws of Inheritance</h2>
+            <p>Gregor Mendel was a scientist who studied pea plants a long time ago (between 1856 and 1863). He discovered two big rules, or laws, about how traits are passed from parents to kids. These rules help us understand genetics, which is the study of genes.</p>
+            <ul>
+                <li><strong>Law of Segregation</strong>: Every parent has two copies of each gene—one from their mom and one from their dad. When they have a child, they give just one copy. So, if a parent has a gene for brown eyes and one for blue eyes, the child gets one or the other, not both.
+                    <ul>
+                        <li><strong>Example</strong>: Mendel crossed a purple-flowered pea plant (PP) with a white-flowered one (pp). The first kids all had purple flowers (Pp) because purple is stronger. But when those plants made new seeds, some were white (pp). This shows genes split up, or segregate. See more at <a href="https://en.wikipedia.org/wiki/Mendelian_inheritance" target="_blank">Mendelian Inheritance</a>.</li>
+                    </ul>
+                </li>
+                <li><strong>Law of Independent Assortment</strong>: Different traits don’t stick together. For example, the color of a pea flower doesn’t decide its seed shape. This mixes things up and makes every child a little different.
+                    <ul>
+                        <li><strong>Example</strong>: A plant with purple flowers and round seeds can have kids with purple flowers and wrinkled seeds. This is explained in <a href="https://www.britannica.com/science/Mendelian_inheritance" target="_blank">Mendel’s Laws</a>.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>These laws are super important, but sometimes there are tricky cases that don’t follow them exactly.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://en.wikipedia.org/wiki/Mendelian_inheritance" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Sex Determination Section -->
+        <section id="sex-determination" class="content-section">
+            <h2>How is Sex Determined?</h2>
+            <p>In people, whether you’re a boy or a girl depends on special genes called chromosomes. Girls have two X chromosomes (XX), and boys have one X and one Y (XY). The mom always gives an X, but the dad can give an X or a Y. If he gives a Y, you get a boy (XY); if he gives an X, you get a girl (XX).</p>
+            <p>For example, if a baby is a boy, it’s because the dad’s Y chromosome mixed with the mom’s X. Sometimes unusual things like XXY happen, but that’s rare. Check out <a href="https://embryo.asu.edu/pages/sex-determination-humans" target="_blank">Sex Determination in Humans</a> for more.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://embryo.asu.edu/pages/sex-determination-humans" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Evolution & Classification Section -->
+        <section id="evolution-classification" class="content-section">
+            <h2>Evolution & Classification</h2>
+            <p>Evolution is how animals and plants change slowly over a long time. It happens through natural selection, where the ones best suited to their home survive and have babies. Classification is putting living things into groups based on how they’re related, like family members.</p>
+            <p>For example, birds grew feathers to fly better—that’s evolution. And we group humans, chimpanzees, and gorillas together because they come from the same big family long ago. Scientists use DNA now to figure this out, though they sometimes argue about the best way. See <a href="https://byjus.com/biology/evolution-classification-and-evolution/" target="_blank">Evolution and Classification</a>.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://byjus.com/biology/evolution-classification-and-evolution/" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Acquired and Inherited Traits Section -->
+        <section id="traits" class="content-section">
+            <h2>Acquired and Inherited Traits</h2>
+            <p>Traits are things about you. Some you get while you live (acquired), and some you’re born with (inherited).</p>
+            <ul>
+                <li><strong>Acquired Traits</strong>: These happen during your life and don’t pass to your kids. Like if you learn to play piano or get a tan from the sun—it’s yours, not your baby’s.</li>
+                <li><strong>Inherited Traits</strong>: These come from your parents’ genes and can go to your kids. For example, if your mom has blue eyes, you might too.</li>
+            </ul>
+            <p>A tan won’t make your child’s skin darker, but eye color can pass on. Learn more at <a href="https://byjus.com/biology/acquired-and-inherited-traits/" target="_blank">Acquired and Inherited Traits</a>.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://byjus.com/biology/acquired-and-inherited-traits/" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Homologous and Analogous Organs Section -->
+        <section id="organs" class="content-section">
+            <h2>Homologous and Analogous Organs</h2>
+            <p>Organs in different animals can tell us about evolution.</p>
+            <ul>
+                <li><strong>Homologous Organs</strong>: These look alike inside but do different jobs. Like a human arm and a bat wing—they have the same bones but one grabs, the other flies. This means they had the same ancestor long ago.</li>
+                <li><strong>Analogous Organs</strong>: These do the same job but look different inside. Like a bird wing and an insect wing—both fly, but one’s feathers and the other’s not. They grew alike because of where they live.</li>
+            </ul>
+            <p>See <a href="https://byjus.com/biology/difference-between-homologous-and-analogous-structures/" target="_blank">Homologous & Analogous Organs</a> for more.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://byjus.com/biology/difference-between-homologous-and-analogous-structures/" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Fossils Section -->
+        <section id="fossils" class="content-section">
+            <h2>What are Fossils?</h2>
+            <p>Fossils are old remains or marks of animals and plants from millions of years ago, like bones or footprints turned into rock. They show us what lived before and how things changed.</p>
+            <p>For example, dinosaur bones tell us big reptiles were here once. Fossils help us see evolution and old environments. Read more at <a href="https://education.nationalgeographic.org/resource/fossil/" target="_blank">Fossils</a>.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://education.nationalgeographic.org/resource/fossil/" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+
+        <!-- Human Evolution Section -->
+        <section id="human-evolution" class="content-section">
+            <h2>Human Evolution</h2>
+            <p>Human evolution is how we went from early ape-like creatures to modern people (Homo sapiens) over millions of years. Here are some big steps:</p>
+            <ul>
+                <li><strong>Australopithecus afarensis</strong>: Lived about 3.7 million years ago, walked on two legs—like “Lucy.”</li>
+                <li><strong>Homo habilis</strong>: Around 2.4 million years ago, started using tools.</li>
+                <li><strong>Homo erectus</strong>: About 1.8 million years ago, moved out of Africa with bigger brains.</li>
+                <li><strong>Neanderthals</strong>: Lived until about 40,000 years ago, close cousins to us.</li>
+                <li><strong>Homo sapiens</strong>: Us! Started about 300,000 years ago in Africa, now everywhere.</li>
+            </ul>
+            <p>Timelines can change with new finds. See <a href="https://www.britannica.com/science/human-evolution" target="_blank">Human Evolution</a>.</p>
+            <div class="text-center">
+                <hr class="mt-3 mb-3" style="width: 100%;">
+                <a href="https://www.britannica.com/science/human-evolution" target="_blank" class="text-primary">Read More</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>© 2023 All Rights Reserved. Design by <a href="https://html.design/" target="_blank" class="text-white">Free Html Templates</a></p>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top">Top</a>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('searchTrigger').addEventListener('click', function() {
+            let searchTerm = prompt("Search topics...").toLowerCase();
+            if (searchTerm) {
+                let sections = document.querySelectorAll('section:not(#home)');
+                sections.forEach(section => {
+                    let heading = section.querySelector('h2');
+                    if (heading && heading.textContent.toLowerCase().includes(searchTerm)) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
